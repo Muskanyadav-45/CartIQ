@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CartIQ – Smarter Insights, Better Business</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></symbol>
+<symbol id="people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.6"/><path d="M2 20c0-4 3-6 7-6s7 2 7 6z"/><circle cx="17.5" cy="9" r="2.6"/><path d="M17.5 14c3 0 4.8 1.6 4.8 4.6v1.4h-4.5c0-2.200-.6-4-1.800-5.200.4-.5 1-.8 1.500-.8z"/></symbol>
+<symbol id="bars" viewBox="0 0 24 24"><path d="M4 20V10h4v10zM10 20V3h4v17zM16 20v-7h4v7z"/></symbol>
+<symbol id="info" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 8h2v7h-2zm0-3h2v2h-2z"/></symbol>
+<symbol id="cart" viewBox="0 0 24 24"><path d="M2 3h3.200l.6 3H22l-2.200 9H8L5.200 3zM9 22a1.800 1.800 0 1 0 0-3.600A1.800 1.800 0 0 0 9 22zm9 0a1.800 1.800 0 1 0 0-3.600 1.800 1.800 0 0 0 0 3.600z"/></symbol>
+<symbol id="bag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M5 8h14l1 14H4zm4 0a3 3 0 0 1 6 0h-2a1 1 0 0 0-2 0z"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path d="M12 1.500l3.100 6.700 7.300.8-5.400 5 1.500 7.200L12 17.500 5.500 21.200 7 14l-5.400-5 7.300-.8z"/></symbol>
+<symbol id="cal" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7 2h2v2h6V2h2v2h3a1 1 0 0 1 1 1v15a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h3zM5 10v9h14v-9z"/></symbol>
+<symbol id="bulb" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-4 12.700V17h8v-2.300A7 7 0 0 0 12 2zM9 19h6v1.500a1.500 1.500 0 0 1-1.500 1.500h-3A1.500 1.500 0 0 1 9 20.500z"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11"/><path d="M7 12.500l3.200 3.200L17 9" fill="none" stroke="#fff" stroke-width="2.300" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="pie" viewBox="0 0 24 24"><path d="M11 3a9 9 0 1 0 9 9h-9z"/><path d="M13 1v9h9a9 9 0 0 0-9-9z" opacity=".55"/></symbol>
+</defs></svg>
+
+<div class="app">
+<aside class="side">
+  <div class="brand">
+    <svg viewBox="0 0 80 56" class="mark" aria-hidden="true"><path d="M4 6h10l7 28h32l7-20H18" fill="none" stroke="#c9bcff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="26" cy="46" r="4" fill="#c9bcff"/><circle cx="48" cy="46" r="4" fill="#c9bcff"/><rect x="58" y="14" width="6" height="14" rx="2" fill="#8c6bff"/><rect x="67" y="4" width="6" height="24" rx="2" fill="#8c6bff"/><path d="M34 12l2 5 5 .5-4 3.500 1.200 5L34 23l-4.200 3 1.200-5-4-3.500 5-.5z" fill="#4da3ff"/></svg>
+    <div class="wm">Cart<span>IQ</span></div>
+    <p>Smarter Insights.<br>Better Business.</p>
+  </div>
+  <nav id="nav">
+    <button data-view="dash" class="on"><svg class="i"><use href="#home"/></svg>Dashboard</button>
+    <button data-view="segs"><svg class="i"><use href="#people"/></svg>Customer Segments</button>
+    <button data-view="analytics"><svg class="i"><use href="#bars"/></svg>Analytics</button>
+    <button data-view="about"><svg class="i"><use href="#info"/></svg>About</button>
+  </nav>
+  <svg class="deco" viewBox="0 0 200 150" aria-hidden="true"><path d="M30 90C80 80 130 50 175 18" fill="none" stroke="#8c6bff" stroke-width="5" stroke-linecap="round"/><path d="M160 14l18 2-6 17" fill="none" stroke="#8c6bff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><rect x="82" y="86" width="14" height="30" rx="3" fill="#5a3fd1"/><rect x="104" y="70" width="14" height="46" rx="3" fill="#6e4df0"/><rect x="126" y="52" width="14" height="64" rx="3" fill="#7d5cff"/><rect x="148" y="34" width="14" height="82" rx="3" fill="#8c6bff"/><path d="M6 76h16l12 44h58l10-34" fill="none" stroke="#a590ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 90h54M44 104h46" stroke="#a590ff" stroke-width="3"/><circle cx="48" cy="136" r="7" fill="#a590ff"/><circle cx="84" cy="136" r="7" fill="#a590ff"/></svg>
+  <p class="copy">© 2026 CartIQ</p>
+</aside>
+
+<main class="main">
+  <header class="hello">
+    <div class="wave" aria-hidden="true">👋</div>
+    <div>
+      <h1>Welcome back <span id="who"></span> 💜</h1>
+      <p>Explore customer insights and make <b>data-driven</b> decisions!</p>
+    </div>
+    <label class="range" data-v="dash analytics"><svg class="i"><use href="#cal"/></svg>
+      <select id="range" aria-label="Time range"><option value="3">Last 3 Months</option><option value="6" selected>Last 6 Months</option></select>
+    </label>
+  </header>
+
+  <div class="grid">
+    <section class="kpis" id="kpis" data-v="dash"></section>
+
+    <article class="card c5" data-v="dash">
+      <h2><svg class="i pu"><use href="#pie"/></svg>Customer Segments</h2>
+      <div class="donut-row"><div class="donut" id="donut"></div><ul class="legend" id="legend"></ul></div>
+    </article>
+
+    <article class="card c7" data-v="dash analytics">
+      <h2><svg class="i pu"><use href="#bars"/></svg>Spending Trend<span class="key"><i></i>Total Spending</span></h2>
+      <div id="trend"></div>
+    </article>
+
+    <article class="card c4" data-v="dash analytics">
+      <h2><svg class="i pu"><use href="#people"/></svg>Age Distribution</h2>
+      <div id="age"></div>
+    </article>
+
+    <article class="card c4" data-v="dash analytics">
+      <h2><svg class="i pu"><use href="#bag"/></svg>Top Products</h2>
+      <div id="prod"></div>
+    </article>
+
+    <article class="card c4 insights" data-v="dash">
+      <h2><svg class="i amber"><use href="#bulb"/></svg>Key Insights</h2>
+      <ul id="ins"></ul>
+      <button class="cta" id="report" type="button">View Detailed Report <span aria-hidden="true">→</span></button>
+    </article>
+
+    <article class="card c4" data-v="segs">
+      <h2>Your data</h2>
+      <label class="drop" id="drop" for="file"><input type="file" id="file" accept=".csv" hidden><span id="dropText">Drop a CSV here or click to browse</span></label>
+      <button class="ghost" id="sample" type="button">Use sample data</button>
+      <label class="f">Horizontal axis<select id="xcol"></select></label>
+      <label class="f">Vertical axis<select id="ycol"></select></label>
+      <label class="f">Number of segments<span class="kbox"><input type="range" id="k" min="2" max="6" value="4"><output id="kOut">4</output></span></label>
+      <button class="cta full" id="run" type="button">Find segments</button>
+      <p class="note" id="msg" role="status"></p>
+    </article>
+
+    <article class="card c8" data-v="segs">
+      <h2>Segment map</h2>
+      <canvas id="plot" aria-label="Customer segments scatter plot"></canvas>
+    </article>
+
+    <section class="segcards" id="segcards" data-v="segs"></section>
+
+    <article class="card c12" data-v="segs">
+      <h2>Customers by segment</h2>
+      <div class="scroll"><table id="table"></table></div>
+    </article>
+
+    <article class="card c12 about" data-v="about">
+      <h2>About CartIQ</h2>
+      <p>CartIQ groups customers by how they shop. It uses K-Means clustering on attributes such as annual income and spending score, then turns the groups into a dashboard of segments, spending trends, age mix and top products.</p>
+      <p>Upload a CSV with at least two numeric columns. Columns named like Age, Category, Month (or Date), Purchase Amount and Rating fill the other charts automatically.</p>
+    </article>
+  </div>
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
