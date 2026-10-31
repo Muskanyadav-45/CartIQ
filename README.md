@@ -54,7 +54,6 @@ can be used for segmentation.
 - **Data Processing:** Pandas, NumPy
 - **Data Visualization:** Matplotlib, Seaborn
 - **Frontend:** HTML, CSS, JavaScript
-- **Database:** SQL
 - **Development Environment:** Jupyter Notebook / VS Code
 - **Version Control:** Git & GitHub
 
